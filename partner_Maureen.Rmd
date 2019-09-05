@@ -1,0 +1,23 @@
+---
+title: "partner_Maureen"
+author: "Maureen McDonald"
+date: "9/3/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. Name
+  + Maureen McDonald
+
+2. What did the Owner do in the most recent commit? What is the commit ID?
+  + My partner 
+
+## Knit the Owner’s owner_YourName.Rmd. Are you able to do so without error? If you cannot, what errors did you encounter?
+### No errors
+
+## Also include one tip for making Git/GitHub easier, or an error/difficulty you encountered.
+### Figuring out how to push what we have.
+
