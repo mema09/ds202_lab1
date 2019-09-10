@@ -398,57 +398,6 @@ summary {
 <li>I’m bilingual</li>
 </ul>
 </div>
-<div id="understanding-concepts" class="section level1">
-<h1>Understanding Concepts</h1>
-<ol style="list-style-type: decimal">
-<li>Explain the difference between Git and Github.</li>
-</ol>
-<ul>
-<li>Git is a version control system that helps developers track their changes in code while making it easier to peer develop while Github is a hosting service that allows Git projects to be presented online.</li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
-<li>Can Git and Github be used independently? Why don’t we do so? Describe the advantages and disadvantages.</li>
-</ol>
-<ul>
-<li>Yes Git and Github can be used independently but we dont do it because it makes it difficult to work in a team. An advantage of using the two together is that it allows for a connection when peer coding, it makes it easier to work on a project with others because each teammate can see all the changes made and collaborate on their own as well. A disadvantage to not using the two is making it difficult to collaborate because changes aren’t shown and may be repeated.</li>
-</ul>
-<ol start="3" style="list-style-type: decimal">
-<li>What is a repository in Git and how can you create a repository in Git (write out the command(s))?</li>
-</ol>
-<ul>
-<li>A repository is a folder for a project in Github, to create a repository you would write these commands in Git Bash</li>
-<li></li>
-</ul>
-</div>
-<div id="coding-exercises" class="section level1">
-<h1>Coding Exercises</h1>
-<ol style="list-style-type: decimal">
-<li>Write code to count the total number of <code>NA</code> occurrences in the vector <code>X = c(47,34,33,65,37,NA,43,NA,11,NA,23,NA)</code>.</li>
-</ol>
-<pre class="r"><code>X = c(47,34,33,65,37,NA,43,NA,11,NA,23,NA)
-sum(is.na(X))</code></pre>
-<pre><code>## [1] 4</code></pre>
-<ol start="2" style="list-style-type: decimal">
-<li>Run the following code and change 0 value to 150</li>
-</ol>
-<pre class="r"><code>age = c(25,30,45,60,12,41)
-   smoker = c(&#39;T&#39;,&#39;F&#39;,&#39;T&#39;,&#39;F&#39;,&#39;F&#39;,&#39;F&#39;)
-   weight = c(120,137,0,168,91,142)
-   example_data = data.frame(age,smoker,weight)
-   replace(weight, weight ==0, 150)</code></pre>
-<pre><code>## [1] 120 137 150 168  91 142</code></pre>
-<ol start="3" style="list-style-type: decimal">
-<li>Turn code snippets into functions</li>
-</ol>
-<pre class="r"><code>x = c(5,8,9)
-mean(is.na(x))</code></pre>
-<pre><code>## [1] 0</code></pre>
-<pre class="r"><code>x/ sum(x, na.rm = TRUE)</code></pre>
-<pre><code>## [1] 0.2272727 0.3636364 0.4090909</code></pre>
-<ol start="4" style="list-style-type: decimal">
-<li>Write a function named both_na(). This function take two vectors of the same length and returns the number of positions that have an NA value in both vectors.</li>
-</ol>
-</div>
 
 
 
